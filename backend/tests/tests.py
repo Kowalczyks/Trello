@@ -1,4 +1,3 @@
-
 import time
 import pytest
 from colorama import Fore
@@ -77,9 +76,11 @@ def test_objective1():
     Logger.LogInfo(f'deleting card with id as {create_card_on_the_board[1].json()["id"]}')
 
     # delete board
-    """
-    this method deletes any specific board from trello,
-    """
-    board_id = create_board['id']
-    delete_board = api_board.delete_board_call(board_id=board_id)
-    assert delete_board.status_code == 200, f"Status code is {delete_board.status_code} is not what we expect"
+    # """
+    # this method deletes any specific board from trello,
+    # """
+    # board_id = create_board['id']
+    # delete_board = api_board.delete_board_call(board_id=board_id)
+    # assert delete_board.status_code == 200, f"Status code is {delete_board.status_code} is not what we expect"
+
+    # uncomment this If You want to delete board
