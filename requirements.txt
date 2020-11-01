@@ -1,0 +1,11 @@
+pytest~=5.3.4
+requests~=2.22.0
+setuptools~=45.1.0
+colorama~=0.4.3
+configparser~=5.0.1
+selenium==3.141.0
+allure-pytest==2.6.4
+webdriver-manager==3.2.2
+pytest-html==2.1.1
+
+
