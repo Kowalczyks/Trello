@@ -9,7 +9,7 @@ from frontend.pageObjects.LoginPage import LoginPage
 test_config = load_config()
 
 
-class TestLogin(APIBoard):
+class TestLogin():
     base_url = test_config['base_url']
     username = test_config['username']
     password = test_config['password']
