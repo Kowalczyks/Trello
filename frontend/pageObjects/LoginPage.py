@@ -1,4 +1,4 @@
-class LoginPage():
+class LoginPage:
     textbox_username_id = 'user'
     textbox_password_id = 'password'
     button_login = 'login'

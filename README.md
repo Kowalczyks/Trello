@@ -34,7 +34,7 @@ To run backend test from Cmdl go to backend/tests pytest tests.py
 **Fronted**
 
 To run frontend tests prom Pycharm, create configuration pointed to ../Trello/frontend/testCases/test_login.py as Script.py
-To run frontend tests from Cmdl from main folder Trello run 
+To run frontend tests from Cmd from main folder Trello run 
 python -m pytest
 or
 python -m pytest --html=name_of_report.html it will generate report

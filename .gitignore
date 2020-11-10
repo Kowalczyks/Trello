@@ -3,3 +3,4 @@
 .assets
 /assets
 *.log
+/frontend/pageObjects/__pycache__/*
